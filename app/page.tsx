@@ -11,7 +11,7 @@ import SecondLast from "@/src/components/SecondLast";
 export default function Home() {
   return (
     <div className="flex min-h-screen w-[100vw] items-center -z-10 justify-center bg-black font-sans bg-black overflow-x-hidden">
-      <main className="flex min-h-screen w-full  flex-col z-0 items-center justify-between py-16  bg-black sm:items-start">
+      <main className="flex min-h-screen w-full  flex-col z-0 items-center justify-between py-16 mb-0 bg-black sm:items-start">
        
        <Hero/>
        <Service/>
